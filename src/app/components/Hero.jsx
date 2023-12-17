@@ -30,7 +30,7 @@ export default function Hero() {
           alt="Decoration"
           width={110}
           height={134}
-          className="absolute right-0 bottom-[-50px] z-0"
+          className="absolute right-0 bottom-0 z-0 translate-y-14"
         />
       </div>
     </div>
