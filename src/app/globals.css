@@ -22,4 +22,11 @@ body {
 
 .bg-mobile {
   background-image: url("/scale-bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-mobile-1 {
+  background-image: url("/grid-bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
