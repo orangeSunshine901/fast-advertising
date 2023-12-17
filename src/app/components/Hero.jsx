@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Hero() {
   return (
-    <div className="min-h-[667px]">
+    <div className="min-h-[667px] relative">
       <div className="pt-8 flex items-center">
         <Image
           src="/hero-image-mobile.png"
@@ -30,7 +30,7 @@ export default function Hero() {
           alt="Decoration"
           width={110}
           height={134}
-          className="absolute right-0 bottom-0 z-0 translate-y-14"
+          className="absolute mr-[-20px] right-0 z-0 bottom-0 translate-x-0 translate-y-0"
         />
       </div>
     </div>
