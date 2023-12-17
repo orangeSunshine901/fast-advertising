@@ -7,7 +7,7 @@ export default function About() {
       <div className="relative h-[100vh] bg-[#111F30] bg-mobile pt-[82px] px-5 text-[#DEF0F2] pb-6 ">
         <h2 className="text-[23px] uppercase font-bold ">Contact Us</h2>
         <p className="text-[16px] pt-[15px] pb-[20px]">
-          Let's Talk Signs! Drop Us a Line.
+          Let&#39;s Talk Signs! Drop Us a Line.
         </p>
         <form className="mt-5">
           <label className="text-[12px]">Name</label>
