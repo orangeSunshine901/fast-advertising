@@ -39,7 +39,7 @@ export default function Footer() {
                 height={13}
               />
             </a>
-            <a className="bg-[#111F30] w-[28px] h-[28px] rounded-[50%] flex justify-center">
+            <a className="bg-[#111F30] w-[28px] h-[28px] rounded-[50%] flex justify-center items-center">
               <Image
                 src="/mail-icon.svg"
                 alt="Mail Logo"
