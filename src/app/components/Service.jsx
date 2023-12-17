@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function Service() {
   return (
     <div>
-      <div className="h-[100vh] bg-[#DEF0F2] bg-mobile-1 pt-[82px] px-5 text-[#111F30] pb-6 ">
+      <div className="min-h-[667px] bg-[#DEF0F2] bg-mobile-1 pt-[82px] px-5 text-[#111F30] pb-6 ">
         <h2 className="text-[23px] uppercase font-bold ">Ink Jet Printing</h2>
         <p className="text-[16px] pt-[15px] pb-[15px]">
           Our advanced technology guarantees vibrant, accurate prints for all

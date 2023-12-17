@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function About() {
   return (
     <div>
-      <div className="relative h-[100vh] bg-[#111F30] bg-mobile pt-[82px] px-5 text-[#DEF0F2] pb-6 ">
+      <div className="relative min-h-[667px] bg-[#111F30] bg-mobile pt-[82px] px-5 text-[#DEF0F2] pb-6 ">
         <h2 className="text-[23px] uppercase font-bold ">About Us</h2>
         <p className="text-[16px] pt-[15px] pb-[20px]">
           With over two decades in the advertising field, we specialize in sign

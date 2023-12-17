@@ -3,8 +3,8 @@ import Image from "next/image"
 
 export default function Hero() {
   return (
-    <div>
-      <div className="pt-8 flex items-center min-h-fit">
+    <div className="min-h-[667px]">
+      <div className="pt-8 flex items-center">
         <Image
           src="/hero-image-mobile.png"
           alt="Hero Image Mobile"
@@ -23,14 +23,15 @@ export default function Hero() {
         <button className="ml-1 mb-[30px] bg-[#F5B70D] font-bold text-[12px] font-semibold px-[21.5px] h-[31px] rounded-md">
           Start Your Journey
         </button>
-        <div className="absolute right-0 bottom-0 z-0">
-          <Image
-            src="/bubble-btm.svg"
-            alt="Decoration"
-            width={110}
-            height={134}
-          />
-        </div>
+      </div>
+      <div>
+        <Image
+          src="/bubble-btm.svg"
+          alt="Decoration"
+          width={110}
+          height={134}
+          className="absolute right-0 bottom-[-50px] z-0"
+        />
       </div>
     </div>
   )
